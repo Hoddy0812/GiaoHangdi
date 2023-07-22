@@ -1,0 +1,104 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    position: relative;
+}
+
+.background__img {
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    background-color: #307069;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__heading {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-btn {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    padding:15px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1e4844;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.newbie {   
+    position: absolute;
+    top: 50%;
+    left: 48.7%;
+    transform: translateX(-50%);
+    margin-left: 12px;
+}
+.register-ask {
+    color: #fff;
+    font-size:20px
+}
+.register {
+    color: #b1e53c;
+    cursor: pointer;
+    font-size: 20px
+}
+.quantity-slogan {
+    position: absolute;
+    left: 100px;
+    top: 650px;
+}
+.quantity {
+    font-size: 35px;
+    background-color: #b1e53c;
+    padding: 20px 40px;
+    color: #254e47;
+}
+
+.slogan {
+    margin-left: 90px;  
+    margin-top: 20px;
+    font-size:25px;
+    color: #fff;
+    text-decoration: underline;
+    left :85%;
+}
+
+.logo {
+  
+    position: absolute;
+    top:50%; 
+    right:150px;
+
+   
+}
+
+.logo-img {
+    width: 100%;
+}
