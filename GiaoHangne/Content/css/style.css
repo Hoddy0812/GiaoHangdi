@@ -102,3 +102,158 @@ html {
 .logo-img {
     width: 100%;
 }
+/* Css form login */
+.wrap {
+    position: relative;
+}
+
+.background-login-img {
+    width: 100%;
+}
+
+.form-login {
+    position: fixed;
+    width: 500px;
+    background-color: #fff;
+    top: calc(50% - 300px);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    padding: 30px 28px;
+}
+
+.header-login-heading {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.space {
+    width: 12px;
+    display: inline-block;
+}
+
+.form-login-switch-login {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form-login-switch-register {
+    color: #ccc;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.form-login-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fa-facebook {
+    color: #fff;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.fa-google {
+    font-size: 40px;
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-right: 30px;
+}
+
+.button-social {
+    padding: 4px 8px;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    min-width: 200px;
+    text-align: center;
+}
+
+.form-login-socials-facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.form-login-socials-google {
+    background-color: #dfdede;
+    color: #000;
+}
+
+.border {
+    border-bottom: 1px solid #000;
+    margin: 0 -28px;
+}
+
+.number-login {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.fa-star {
+    color: #ffff00;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin-right: 2px;
+    background-color: red;
+}
+
+.number-login-text {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.number-login-flag {
+    display: inline-flex;
+    position: relative;
+    padding: 10px 12px;
+    background-color: #bfbcbc;
+    align-items: center;
+}
+
+.number-login-input {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.number-login-input-valid {
+    font-size: 18px;
+    padding: 12px 0;
+    width: 340px;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #000;
+}
+
+.btn-login {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.btn-login-link {
+    width: 70%;
+    display: block;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 26px;
+    font-weight: 550;
+    border: none;
+    background-color: #1e4844;
+    text-decoration: none;
+    color: #fff;
+    margin: 70px auto 0 auto;
+    padding: 12px 0;
+}

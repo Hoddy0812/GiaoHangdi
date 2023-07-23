@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="163a429f8f534722b6dd6d79e8b37d7c" Name="Diagram1">
+        <EntityTypeShape EntityType="GiaoHangModel.CapNhatDanhSachNhanVien" Width="1.5" PointX="12.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.DonHang" Width="1.5" PointX="7" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.KhachHang" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.LapDanhSachXe" Width="1.5" PointX="5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.LichSuDonHang" Width="1.5" PointX="12.875" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.MaUuDai" Width="1.5" PointX="3.875" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.NhanVien" Width="1.5" PointX="9.375" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.ThongKeDoanhThu" Width="1.5" PointX="7.375" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiaoHangModel.ThongKeThuNhap" Width="1.5" PointX="11.125" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="GiaoHangModel.FK__CapNhatDan__MaNV__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__DonHang__IDKhuye__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__DonHang__MaKH__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__DonHang__MaNV__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__LichSuDonH__MADH__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__LapDanhSac__MaNV__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__ThongKeDoa__MaNV__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="GiaoHangModel.FK__ThongKeThu__MaNV__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
