@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 .background {
@@ -45,7 +46,7 @@ html {
     position: absolute;
     top: 43%;
     left: 43%;
-    padding:15px 40px;
+    padding: 15px 40px;
     border-radius: 20px;
     border: none;
     background-color: #1e4844;
@@ -53,27 +54,32 @@ html {
     font-size: 25px;
     cursor: pointer;
 }
-.newbie {   
+
+.newbie {
     position: absolute;
     top: 50%;
     left: 48.7%;
     transform: translateX(-50%);
     margin-left: 12px;
 }
+
 .register-ask {
     color: #fff;
-    font-size:20px
+    font-size: 20px
 }
+
 .register {
     color: #b1e53c;
     cursor: pointer;
     font-size: 20px
 }
+
 .quantity-slogan {
     position: absolute;
     left: 100px;
     top: 650px;
 }
+
 .quantity {
     font-size: 35px;
     background-color: #b1e53c;
@@ -82,26 +88,25 @@ html {
 }
 
 .slogan {
-    margin-left: 90px;  
+    margin-left: 90px;
     margin-top: 20px;
-    font-size:25px;
+    font-size: 25px;
     color: #fff;
     text-decoration: underline;
-    left :85%;
+    left: 85%;
 }
 
 .logo {
-  
     position: absolute;
-    top:50%; 
-    right:150px;
-
-   
+    top: 50%;
+    right: 150px;
 }
 
 .logo-img {
     width: 100%;
 }
+
+
 /* Css form login */
 .wrap {
     position: relative;
@@ -257,6 +262,7 @@ html {
     margin: 70px auto 0 auto;
     padding: 12px 0;
 }
+
 /* Css form register */
 .register-input-label {
     display: block;
@@ -280,13 +286,32 @@ html {
 }
 
 /* Css home page */
+.main {
+    background-image: url('../img/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: #000000;
+}
+
 .main__header {
     display: flex;
+    height: 166px;
     justify-content: space-between;
 }
 
+.main__header-logo {
+    width: 80px;
+}
+
+
 .main__header-logo-img {
     width: 150px;
+}
+
+.main__header-navbar {
+    height: 90px;
 }
 
 .main__header-navbar-list {
@@ -341,18 +366,42 @@ html {
 .main__body {
     display: flex;
     align-items: center;
+    margin-top: 100px;
     justify-content: space-around;
-    height: 400px;
+    height: 200px;
 }
 
-.main__body-text {
-    text-align: center;
+.main__body-target {
+    display: flex;
     width: 15%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__body-img {
+    margin-bottom: 20px;
+}
+
+    .main__body-img img {
+        width: 100px;
+    }
+
+.main__body-text {
+    color: #fff;
     font-weight: 600;
 }
 
 .main__footer {
-    text-align: center;
+    height: 200px;
+    color: #fff;
+    position: relative;
+}
+
+.main__footer-text {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
     font-size: 26px;
 }
 

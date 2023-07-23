@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HomeeController.cs" />
     <Compile Include="Controllers\Login_Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -151,8 +152,12 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\fontawesome.css" />
     <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\img\anh1.png" />
+    <Content Include="Content\img\anh2.png" />
+    <Content Include="Content\img\anh3.png" />
     <Content Include="Content\img\background-login.jpg" />
     <Content Include="Content\img\background1.jpg" />
+    <Content Include="Content\img\background3.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\regular.css" />
     <Content Include="Content\regular.min.css" />
@@ -203,6 +208,7 @@
     <Content Include="Views\Shared\_LayoutPage1.cshtml" />
     <Content Include="Views\Login_\Index.cshtml" />
     <Content Include="Views\Login_\Dangky.cshtml" />
+    <Content Include="Views\Homee\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
