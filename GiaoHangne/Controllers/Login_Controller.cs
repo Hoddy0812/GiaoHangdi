@@ -13,5 +13,9 @@ namespace GiaoHangne.Controllers
         {
             return View();
         }
+        public ActionResult Dangky()
+        {
+            return View();
+        }
     }
 }

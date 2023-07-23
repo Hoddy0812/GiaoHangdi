@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Dangky";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="~/Content/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/all.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <img src="~/Content/img/background-login.jpg" alt="" class="background-login-img">
+
+        <div class="overlay"></div>
+
+        <div class="form-login">
+            <header class="header-login">
+                <h1 class="header-login-heading">AHAHA</h1>
+            </header>
+
+            <div class="form-login-switch">
+                <a href="@Url.Action("Index")" class="form-login-switch-register">Đăng nhập</a>
+                <div class="space"></div>
+                <a href="#" class="form-login-switch-login">Đăng ký</a>
+            </div>
+
+            <div class="form-login-register">
+                <form action="" class="form-login-register-input">
+                    <label for="name" class="register-input-label">Tên</label>
+                    <input type="text" id="name" class="register-input-valid">
+                    <label for="email" class="register-input-label">Email</label>
+                    <input type="email" id="email" class="register-input-valid">
+                    <label for="telephone" class="register-input-label">Số điện thoại</label>
+                    <input type="text" id="telephone" class="register-input-valid">
+                </form>
+            </div>
+
+            <div class="btn-login">
+                <a href="" class="btn-login-link">Đăng ký</a>
+            </div>
+
+            <div class="form-login-policy">
+                <span class="form-login-policy-text">
+                    Bạn đồng ý với chính sách của chúng tôi
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
