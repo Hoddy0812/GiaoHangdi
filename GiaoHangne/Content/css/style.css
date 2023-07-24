@@ -302,6 +302,7 @@ html, body {
 }
 
 .main__header-logo {
+    left:100px;
     width: 80px;
 }
 

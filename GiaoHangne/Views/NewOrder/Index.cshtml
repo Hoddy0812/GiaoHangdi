@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm đơn hàng mới</title>
+    <link rel="stylesheet" href="~/Content/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="form__order">
+        <div class="form__order-background">
+            <img src="~/Content/img/background-login.jpg" alt="" class="form__order-background-img">
+            <div class="overlay"></div>
+            <input type="checkbox" hidden id="checkbox">
+            <input type="checkbox" hidden id="form">
+            <div class="form__order-menu">
+                <label for="checkbox"><i class="form__order-menu-icon fa-solid fa-bars"></i></label>
+                <i class="form__order-menu-icon fa-solid fa-plus"></i>
+                <i class="form__order-menu-icon fa-regular fa-clock"></i>
+            </div>
+
+            <div class="form__order-profile">
+                <div class="form__order-profile-information">
+                    <div class="form__order-profile-avt"></div>
+                    <div class="form__order-profile-more">
+                        <p class="form__order-profile-name">Trí Thanh</p>
+                        <p class="form__order-profile-number">+84 123456789</p>
+                    </div>
+                </div>
+                <div class="form__order-profile-btn form__order-profile-btn--active">
+                    <i class="form__order-menu-icon fa-solid fa-plus"></i>
+                    <span class="form__order-profile-btn-des">Đơn hàng mới</span>
+                </div>
+                <div class="form__order-profile-btn">
+                    <i class="form__order-menu-icon fa-regular fa-clock"></i>
+                    <span class="form__order-profile-btn-des">Lịch sử đơn hàng</span>
+                </div>
+            </div>
+
+            <div class="form__order-back-btn">
+                <label for="checkbox"><i class="fa-solid fa-arrow-left"></i></label>
+            </div>
+            <div class="form__order-header">
+                <h1 class="form__order-header-text">ĐƠN HÀNG MỚI</h1>
+            </div>
+            <div class="form__order-logo">
+                <img src="~/Content/img/logo.png" alt="" class="form__order-logo-img">
+            </div>
+            <div class="form__order-left">
+                <h3 class="form__order-left-header">LỘ TRÌNH</h3>
+                <h2 class="form__order-left-header">BẠN MUỐN GIAO ĐẾN ĐÂU?</h2>
+                <form action="" class="form__order-left-form">
+                    <label for="address" class="form__order-left-label">Địa điểm giao hàng</label>
+                    <input type="text" id="address" class="form__order-left-input">
+                    <label for="address_more" class="form__order-left-label">Địa điểm giao hàng chi tiết</label>
+                    <input type="text" id="address_more" class="form__order-left-input">
+                    <label for="name" class="form__order-left-name-receive">Tên người nhận</label>
+                    <label for="number" class="form__order-left-number">Số điện thoại</label> <br>
+                    <input type="text" id="name" class="form__order-left-name-received">
+                    <input type="text" id="number" class="form__order-left-numbers"> <br>
+                    <label for="product" class="form__order-left-kind-product">Loại hàng hóa</label> <br>
+                    <input type="text" id="product" class="form__order-left-product">
+                    <label class="form__order-left-note">Ghi chú</label>
+                    <textarea type="text" class="form__order-left-note-text"></textarea>
+                </form>
+            </div>
+
+            <div class="form__order-right">
+                <form action="" class="form__order-right-form">
+                    <label for="address2" class="form__order-left-label">Địa điểm giao hàng</label>
+                    <input type="text" id="address2" class="form__order-left-input">
+                    <label for="address_more2" class="form__order-left-label">Địa điểm giao hàng chi tiết</label>
+                    <input type="text" id="address_more2" class="form__order-left-input">
+                    <label for="name2" class="form__order-left-name-receive">Tên người gửi</label>
+                    <label for="number2" class="form__order-left-number">Số điện thoại</label> <br>
+                    <input type="text" id="name2" class="form__order-left-name-received">
+                    <input type="text" id="number2" class="form__order-left-numbers"> <br>
+                    <label for="form"><a class="form__order-right-btn">Tiếp tục</a></label>
+                </form>
+            </div>
+
+            <div class="form__order-main">
+                <form action="" class="form__order-main-form">
+                    <label for="in4-product" class="form__order-main-label">Thông tin món hàng</label>
+                    <input type="text" id="in4-product" class="form__order-main-input">
+                    <label for="time" class="form__order-main-time">Thời gian lấy hàng</label>
+                    <label for="voucher" class="form__order-main-voucher">Mã khuyến mãi</label> <br>
+                    <input type="date" id="time" class="form__order-main-times">
+                    <input type="text" id="voucher" class="form__order-main-vouchers">
+                    <label for="banking" class="form__order-main-banking">Hình thức thanh toán</label>
+                    <input type="text" id="banking" class="form__order-main-bankings">
+                    <p class="form__order-main-sum_money">Tổng tiền</p>
+                    <button class="form__order-main-order-btn">Đặt đơn</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
